@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3EAD6D8329F28D68004F7AEA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6D8229F28D68004F7AEA /* main.swift */; };
+		3EAD6D8B29F290FE004F7AEA /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6D8A29F290FE004F7AEA /* MinHeap.swift */; };
+		3EAD6D8D29F29112004F7AEA /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6D8C29F29112004F7AEA /* MaxHeap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		3EAD6D7F29F28D68004F7AEA /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAD6D8229F28D68004F7AEA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3EAD6D8A29F290FE004F7AEA /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
+		3EAD6D8C29F29112004F7AEA /* MaxHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHeap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		3EAD6D8129F28D68004F7AEA /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				3EAD6D8929F2908D004F7AEA /* Heap */,
 				3EAD6D8229F28D68004F7AEA /* main.swift */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		3EAD6D8929F2908D004F7AEA /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD6D8A29F290FE004F7AEA /* MinHeap.swift */,
+				3EAD6D8C29F29112004F7AEA /* MaxHeap.swift */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAD6D8B29F290FE004F7AEA /* MinHeap.swift in Sources */,
 				3EAD6D8329F28D68004F7AEA /* main.swift in Sources */,
+				3EAD6D8D29F29112004F7AEA /* MaxHeap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
